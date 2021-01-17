@@ -1,10 +1,10 @@
 import graphene
-import imagehandler.graphql.schema as image_schema
+import imagehandler.graphql.queries as image_queries
 import imagehandler.graphql.mutations as image_mutations
 import utility.auth_mutations as auth_mutations
 
 
-class Query(image_schema.Query, graphene.ObjectType):
+class Query(image_queries.Query, graphene.ObjectType):
     pass
 
 
