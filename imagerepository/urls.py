@@ -18,10 +18,12 @@ from django.urls import path
 from graphene_django.views import GraphQLView
 from graphene_file_upload.django import FileUploadGraphQLView
 from .schema import schema
+from imagehandler.views import homepage
 from graphql_jwt.decorators import jwt_cookie
 from django.views.decorators.csrf import csrf_exempt
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', homepage, name='homepage'),
     path('graphql/', csrf_exempt(jwt_cookie(FileUploadGraphQLView.as_view(graphiql=True, schema=schema))))
 ]
