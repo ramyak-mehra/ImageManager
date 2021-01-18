@@ -5,6 +5,7 @@ from graphene_file_upload.scalars import Upload
 from graphql_relay.node.node import from_global_id
 from graphql_jwt.decorators import login_required
 from django.core.exceptions import PermissionDenied
+from django.utils.text import slugify
 
 
 class UploadSingleImage(graphene.relay.ClientIDMutation):
@@ -29,7 +30,7 @@ class UploadSingleImage(graphene.relay.ClientIDMutation):
         if tags is not None:
             for tag in tags:
                 tag, created = Tag.objects.get_or_create(
-                    tag=tag, slug=tag.lower())
+                    tag=tag, slug=slugify(tag))
                 image_handler.tags.add(tag.pk)
         image_handler.save()
         return UploadSingleImage(image=image_handler)

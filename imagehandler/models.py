@@ -21,6 +21,11 @@ class ImageHandler(TimestampModel):
         self.original_image.name
         return f"{self.title} {self.pk}"
 
+    def save(self, *args, **kwargs):
+        if not self.title:
+            self.title = re.sub('original/', '', self.original_image.name)
+        super(ImageHandler, self).save(*args, **kwargs)
+
 
 class Tag(TimestampModel):
     tag = models.CharField(max_length=255)
