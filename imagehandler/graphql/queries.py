@@ -3,6 +3,7 @@ from graphene import relay, ObjectType
 from graphene_django import DjangoConnectionField
 from graphene_django.filter import DjangoFilterConnectionField
 from django.db import models
+from imagehandler.models import ImageHandler
 from imagehandler.graphql.schema import ImageNode, ImageFilter, TagNode, UserNode
 
 
@@ -33,10 +34,3 @@ class Query(ObjectType):
         qs = ImageHandler.objects.filter(
             Q(title__icontains=search_query) | Q(user__username__icontains=search_query) | Q(tags__tag__icontains=search_query))
         return qs
-
-    # def resolve_search_images(self, info, search_query, **kwargs):
-    #     from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
-    #     vector = SearchVector('title', 'user__username', 'tags__tag')
-    #     query = SearchQuery(search_query)
-    #     qs = ImageHandler.objects.annotate(
-    #         rank=SearRank(vector, query))
