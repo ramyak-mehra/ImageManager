@@ -7,9 +7,9 @@
 
 > A place to store images and view them anytime. Users can search images from the collections. It is built using django and GraphQL
 
-### 🏠 [Homepage](https://3.84.253.182)
+### 🏠 [Homepage](http://3.86.213.42/)
 
-### ✨ [Demo](https://3.84.253.182/graphql)
+### ✨ [Demo](http://3.86.213.42/graphql)
 
 ## Usage
 
