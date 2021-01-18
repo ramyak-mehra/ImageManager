@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Image Keeper 👋</h1>
 <p>
-  <a href="https://twitter.com/mehra-ramyak" target="_blank">
-    <img alt="Twitter: mehra-ramyak" src="https://img.shields.io/twitter/follow/mehra-ramyak.svg?style=social" />
+  <a href="https://twitter.com/mehraramyak" target="_blank">
+    <img alt="Twitter: mehraramyak" src="https://img.shields.io/twitter/follow/mehraramyak.svg?style=social" />
   </a>
 </p>
 
@@ -63,7 +63,7 @@ python manage.py runserver
 
 👤 **Ramyak Mehra**
 
-- Twitter: [@mehra-ramyak](https://twitter.com/mehra-ramyak)
+- Twitter: [@mehraramyak](https://twitter.com/mehraramyak)
 - Github: [@ramyak-mehra](https://github.com/ramyak-mehra)
 
 ## Show your support
