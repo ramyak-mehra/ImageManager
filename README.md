@@ -5,11 +5,11 @@
   </a>
 </p>
 
-> I place to store images and view them anytime. Users can search images from the collections. It is built using django and GraphQL
+> A place to store images and view them anytime. Users can search images from the collections. It is built using django and GraphQL
 
-### 🏠 [Homepage](https://3.84.253.182:8000)
+### 🏠 [Homepage](https://3.84.253.182)
 
-### ✨ [Demo](https://3.84.253.182:8000/graphql)
+### ✨ [Demo](https://3.84.253.182/graphql)
 
 ## Usage
 
