@@ -59,12 +59,15 @@ python manage.py runserver
 
 ### It will run the server on localhost at port 8000 (by default)
 
+## [Architecture](https://github.com/ramyak-mehra/imagemanager/blob/main/ARCHITECTURE.md)
+
 ## Author
 
 👤 **Ramyak Mehra**
 
 - Twitter: [@mehraramyak](https://twitter.com/mehraramyak)
 - Github: [@ramyak-mehra](https://github.com/ramyak-mehra)
+
 
 ## Show your support
 
