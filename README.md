@@ -1,15 +1,15 @@
 <h1 align="center">Welcome to Image Keeper 👋</h1>
 <p>
-  <a href="https://twitter.com/mehra-ramyak" target="_blank">
-    <img alt="Twitter: mehra-ramyak" src="https://img.shields.io/twitter/follow/mehra-ramyak.svg?style=social" />
+  <a href="https://twitter.com/mehraramyak" target="_blank">
+    <img alt="Twitter: mehraramyak" src="https://img.shields.io/twitter/follow/mehraramyak.svg?style=social" />
   </a>
 </p>
 
-> I place to store images and view them anytime. Users can search images from the collections. It is built using django and GraphQL
+> A place to store images and view them anytime. Users can search images from the collections. It is built using django and GraphQL
 
-### 🏠 [Homepage](https://3.84.253.182:8000)
+### 🏠 [Homepage](https://3.84.253.182)
 
-### ✨ [Demo](https://3.84.253.182:8000/graphql)
+### ✨ [Demo](https://3.84.253.182/graphql)
 
 ## Usage
 
@@ -63,7 +63,7 @@ python manage.py runserver
 
 👤 **Ramyak Mehra**
 
-- Twitter: [@mehra-ramyak](https://twitter.com/mehra-ramyak)
+- Twitter: [@mehraramyak](https://twitter.com/mehraramyak)
 - Github: [@ramyak-mehra](https://github.com/ramyak-mehra)
 
 ## Show your support
